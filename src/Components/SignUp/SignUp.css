@@ -9,6 +9,7 @@ form {
     flex-direction: column;
     margin-top: 5%;
 }
+
 input {
     width: 100%;
     padding: 12px;
@@ -17,6 +18,7 @@ input {
     box-sizing: border-box;
     margin: 8px 0;
 }
+
 .ShowPasswordButton {
     width: 100%;
     background-color: #4CAF50;
@@ -27,6 +29,7 @@ input {
     border-radius: 4px;
     cursor: pointer;
 }
+
 .SignUpButton {
     width: 100%;
     background-color: #4CAF50;
@@ -37,39 +40,48 @@ input {
     border-radius: 4px;
     cursor: pointer;
 }
+
 .ShowPasswordButton:hover {
     background-color: #44a149;
 }
+
 .SignUpButton:hover {
     background-color: #3e9342;
 }
+
 @media (max-width: 600px) {
     form {
         width: 90%;
     }
 }
+
 @media (min-width: 601px) and (max-width: 800px) {
     form {
         width: 70%;
     }
 }
+
 @media (min-width: 801px) {
     form {
         width: 50%;
     }
 }
+
 @media (min-width: 601px) {
     form {
         display: flex;
         flex-wrap: wrap;
     }
+
     label,
     input {
         width: 100%;
     }
+
     label {
         flex: 0 0 25%;
     }
+
     input {
         flex: 0 0 75%;
     }
